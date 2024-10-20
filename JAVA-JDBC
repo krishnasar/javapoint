@@ -1,0 +1,18 @@
+class
+DriverManager
+Statement-PreparedStatement-CallableStatement
+ResultSet
+
+
+
+1. DriverManager is a class that contains appropriate methods to register and deregister the database driver class and to create a connection between a Java application and the database.
+
+2.  Connection is a session between a Java application and a database that helps to establish a connection with the database.
+
+3. Statement interface that provides methods to execute queries with the database
+
+4. ResultSet is a interface in which object of ResultSet maintains a cursor pointing to a row of a table. Initially, cursor points to before the first row.
+
+5. PreparedStatement interface is a subinterface of Statement that is used to execute parameterized query.
+
+6. CallableStatement is interface that is used to call the stored procedures and functions.
