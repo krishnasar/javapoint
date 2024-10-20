@@ -19,7 +19,7 @@ ResultSet
 
 
 example: 
-
+===========================================================================================================
 import java.sql.*;  
 class FetchRecord{  
 public static void main(String args[])throws Exception{  
@@ -35,3 +35,5 @@ System.out.println(rs.getString(1)+" "+rs.getString(2)+" "+rs.getString(3));
   
 con.close();  
 }}  
+
+===========================================================================================================
